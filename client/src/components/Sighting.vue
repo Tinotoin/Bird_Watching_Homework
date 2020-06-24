@@ -16,10 +16,15 @@ export default {
       return new Date(value).toLocaleString().substring(0, 10);
     }
   },
-  methods: {
-
+  // methods: {
+  //   deleteSighting(){
+  //     SightingService.deleteSighting(this.sighting._id)
+  //     .then(() => eventBus.$emit('sighting-deleted', this.sighting._id))
+  //   }
   }
-}
+
+
+
 </script>
 
 <style lang="css" scoped>

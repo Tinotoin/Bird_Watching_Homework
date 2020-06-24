@@ -14,6 +14,14 @@ export default {
 	},
 	props: ['sightings']
 }
+
+// eventBus.$on('sighting-deleted', (id) => {
+//       let index = this.sightings.findIndex(sighting => sighting._id === id)
+//       this.sightings.splice(index, 1)
+// 		)}
+// 	},
+// },
+
 </script>
 
 <style lang="css" scoped>
